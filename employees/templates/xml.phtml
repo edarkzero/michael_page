@@ -1,0 +1,21 @@
+<employees>
+<?php foreach ($employees as $employee): ?>
+    <employee>
+        <id><?= utf8_encode($employee->id) ?></id>
+        <isOnline><?= utf8_encode($employee->isOnline ? 'true' : 'false') ?></isOnline>
+        <salary><?= utf8_encode($employee->salary) ?></salary>
+        <age><?= utf8_encode($employee->age) ?></age>
+        <position><?= utf8_encode($employee->position) ?></position>
+        <name><?= utf8_encode($employee->name) ?></name>
+        <gender><?= utf8_encode($employee->gender) ?></gender>
+        <email><?= utf8_encode($employee->email) ?></email>
+        <phone><?= utf8_encode($employee->phone) ?></phone>
+        <address><?= utf8_encode($employee->address) ?></address>
+        <skills>
+            <?php foreach ($employee->skills as $s): ?>
+                <skill><?= utf8_encode($s->skill); ?></skill>
+            <?php endforeach; ?>
+        </skills>
+    </employee>
+<?php endforeach; ?>
+</employees>

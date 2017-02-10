@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slim 3</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                margin: 50px 0 0 0;
+                padding: 0;
+                width: 100%;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                text-align: center;
+                color: #aaa;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #719e40;
+                letter-spacing: -3px;
+                font-family: 'Lato', sans-serif;
+                font-size: 100px;
+                font-weight: 200;
+                margin-bottom: 0;
+            }
+
+            table {
+                padding-top: 10px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Employee</h1>
+        <div>Details | <a href="<?= $_SERVER['PHP_SELF'] ?>">Back</a></div>
+
+        <?php if(isset($employees)): ?>
+        <?php foreach ($employees as $employee): ?>
+        <?php if($employee->id == $id): ?>
+        <?php $cs = count($employee->skills)-1; ?>
+        <div>
+            <p>Name: <?= $employee->name; ?></p>
+            <p>Email: <?= $employee->email; ?></p>
+            <p>Phone: <?= $employee->phone; ?></p>
+            <p>Address: <?= $employee->address; ?></p>
+            <p>Position: <?= $employee->position; ?></p>
+            <p>Salary: <?= $employee->salary; ?></p>
+            <p>Skills: <?php foreach ($employee->skills as $key => $skill) {
+                    echo $skill->skill;
+                    if($key < $cs) echo ',';
+                } ?>
+            </p>
+        </div>
+        <?php endif; ?>
+        <?php endforeach; ?>
+        <?php endif; ?>
+    </body>
+</html>

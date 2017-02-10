@@ -1,0 +1,237 @@
+[06-Feb-2017 16:53:41 America/Lima] PHP Notice:  Undefined variable: employees in /var/www/html/helmer/employees/templates/index.phtml on line 42
+[06-Feb-2017 16:53:41 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/index.phtml on line 42
+[06-Feb-2017 16:53:42 America/Lima] PHP Notice:  Undefined variable: employees in /var/www/html/helmer/employees/templates/index.phtml on line 42
+[06-Feb-2017 16:53:42 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/index.phtml on line 42
+[06-Feb-2017 17:31:24 America/Lima] PHP Fatal error:  Class 'ControllersEmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:31:26 America/Lima] PHP Fatal error:  Class 'ControllersEmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:31:43 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:31:43 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:31:43 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:31:43 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:00 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:00 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:00 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:00 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:01 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:01 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:32:01 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:33:05 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:34:10 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:34:10 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:34:10 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:35:31 America/Lima] PHP Fatal error:  Class 'SlimApp' not found in /var/www/html/helmer/employees/src/routes.php on line 4
+[06-Feb-2017 17:35:31 America/Lima] PHP Fatal error:  Class 'SlimApp' not found in /var/www/html/helmer/employees/src/routes.php on line 4
+[06-Feb-2017 17:35:31 America/Lima] PHP Fatal error:  Class 'SlimApp' not found in /var/www/html/helmer/employees/src/routes.php on line 4
+[06-Feb-2017 17:35:32 America/Lima] PHP Fatal error:  Class 'SlimApp' not found in /var/www/html/helmer/employees/src/routes.php on line 4
+[06-Feb-2017 17:35:32 America/Lima] PHP Fatal error:  Class 'SlimApp' not found in /var/www/html/helmer/employees/src/routes.php on line 4
+[06-Feb-2017 17:35:52 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:35:54 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:35:54 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:36:16 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:36:56 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:38:07 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:38:08 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:38:08 America/Lima] Slim Application Error:
+Type: RuntimeException
+Message: Callable EmployeeController does not exist
+File: /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolver.php
+Line: 62
+Trace: #0 /var/www/html/helmer/employees/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('EmployeeControl...')
+#1 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(333): Slim\Routable->resolveCallable('EmployeeControl...')
+#2 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#3 /var/www/html/helmer/employees/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /var/www/html/helmer/employees/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /var/www/html/helmer/employees/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /var/www/html/helmer/employees/public/index.php(30): Slim\App->run()
+#9 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[06-Feb-2017 17:42:20 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 17:42:21 America/Lima] PHP Fatal error:  Class 'Controllers\EmployeeController' not found in /var/www/html/helmer/employees/src/dependencies.php on line 25
+[06-Feb-2017 18:12:07 America/Lima] PHP Warning:  file_get_contents(employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:15:08 America/Lima] PHP Warning:  file_get_contents(/helmer/employees/public/employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:17:33 America/Lima] PHP Warning:  file_get_contents(//employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:17:34 America/Lima] PHP Warning:  file_get_contents(//employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:17:58 America/Lima] PHP Warning:  file_get_contents(//employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:18:10 America/Lima] PHP Warning:  file_get_contents(/employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:18:11 America/Lima] PHP Warning:  file_get_contents(/employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:19:59 America/Lima] PHP Warning:  file_get_contents(/var/www/html/helmer/employees/src/employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:20:02 America/Lima] PHP Warning:  file_get_contents(/var/www/html/helmer/employees/src/employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:20:14 America/Lima] PHP Warning:  file_get_contents(/var/www/html/helmer/employees/src../employees.json): failed to open stream: No such file or directory in /var/www/html/helmer/employees/src/routes.php on line 5
+[06-Feb-2017 18:20:20 America/Lima] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/helmer/employees/templates/index.phtml on line 50
+[06-Feb-2017 18:20:20 America/Lima] PHP Fatal error:  Cannot use object of type stdClass as array in /var/www/html/helmer/employees/templates/index.phtml on line 50
+[06-Feb-2017 18:31:45 America/Lima] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /var/www/html/helmer/employees/templates/view.phtml on line 47
+[06-Feb-2017 18:31:46 America/Lima] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /var/www/html/helmer/employees/templates/view.phtml on line 47
+[06-Feb-2017 18:31:50 America/Lima] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /var/www/html/helmer/employees/templates/view.phtml on line 47
+[06-Feb-2017 18:39:27 America/Lima] PHP Notice:  Undefined variable: request in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:39:27 America/Lima] PHP Fatal error:  Call to a member function getUri() on a non-object in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:39:29 America/Lima] PHP Notice:  Undefined variable: request in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:39:29 America/Lima] PHP Fatal error:  Call to a member function getUri() on a non-object in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:15 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:16 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:16 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:22 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:22 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:22 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:22 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:41:23 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:14 America/Lima] PHP Fatal error:  Call to undefined function path_for() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:53 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:53 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:54 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:54 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:54 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:54 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:55 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:48:55 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:49:00 America/Lima] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:51:19 America/Lima] PHP Fatal error:  Class 'Helpers\UrlUtils' not found in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:51:20 America/Lima] PHP Fatal error:  Class 'Helpers\UrlUtils' not found in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[06-Feb-2017 18:52:06 America/Lima] PHP Fatal error:  Class 'Helpers\UrlUtils' not found in /var/www/html/helmer/employees/templates/view.phtml on line 35
+[10-Feb-2017 11:08:48 America/Lima] PHP Notice:  Undefined variable: search in /var/www/html/helmer/employees/templates/index.phtml on line 57
+[10-Feb-2017 11:08:48 America/Lima] PHP Notice:  Undefined variable: search in /var/www/html/helmer/employees/templates/index.phtml on line 57
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Undefined variable: employe in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Trying to get property of non-object in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Undefined variable: employe in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Trying to get property of non-object in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Undefined variable: employe in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Trying to get property of non-object in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Undefined variable: employe in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Trying to get property of non-object in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Undefined variable: employe in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Notice:  Trying to get property of non-object in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:11:19 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/helmer/employees/templates/xml.phtml on line 14
+[10-Feb-2017 12:13:55 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:55 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:55 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:55 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:55 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:13:56 America/Lima] PHP Notice:  Undefined property: stdClass::$mail in /var/www/html/helmer/employees/templates/xml.phtml on line 10
+[10-Feb-2017 12:35:03 America/Lima] PHP Fatal error:  Cannot access protected property Slim\Http\Response::$headers in /var/www/html/helmer/employees/src/routes.php on line 69
